@@ -1,0 +1,133 @@
+﻿<Page
+    x:Class="smartchUWP.View.Tournaments.Matchs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:smartchUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Source={StaticResource Locator}, Path=Matchs}"
+    >
+    <Page.Resources>
+        <DataTemplate x:Key="HeaderTemplatePivot">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="pivot "/>
+                <TextBlock Text="{Binding NumPhase}" Grid.Column="1"/>
+            </Grid>
+            
+        </DataTemplate>
+        <DataTemplate x:Key="ListMatchTemplate">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Border BorderBrush="{StaticResource border}" BorderThickness="0,0,0,2">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding Player1.Name}" Margin="0,0,15,0"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Player1.FirstName}"/>
+                        </Grid>
+                    </Border>
+                    <Border BorderBrush="{StaticResource border}" Grid.Column="1" BorderThickness="0,0,0,2">
+                        <GridView ItemsSource="{Binding Score}">
+                            <GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=Key}"/>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+                    </Border>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="{Binding Player2.Name}" Margin="0,0,15,0"/>
+                        <TextBlock Grid.Column="1" Text="{Binding Player2.FirstName}"/>
+                    </Grid>
+                    
+                   
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="{Binding Emplacement}"/>
+                    <TextBlock Text="{Binding State}" Grid.Row="1"/>
+                    <TextBlock Text="{Binding Time}" Grid.Row="2"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <TextBlock Text="{Binding Arbitre.Name}"/>
+                </Grid>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="PivotTemplate">
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border  BorderBrush="{StaticResource border}" BorderThickness="0,0,2,0" >
+                    <ListView Header="Matchs" 
+                              ItemsSource="{Binding Matchs}"  
+                              SelectionChanged="MatchsListView_SelectionChanged"
+                              ScrollViewer.IsVerticalRailEnabled="True"
+                              ItemTemplate="{StaticResource ListMatchTemplate}" 
+                              HorizontalAlignment="Stretch"
+                              HorizontalContentAlignment="Stretch">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                    </ListView>
+                </Border>
+                <ListView Grid.Column="1" ItemsSource="" Header="Liste des participants qui ne sont pas dans un match"/>
+            </Grid>
+
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Button Command="{Binding CommandGenereMatch}" 
+                Content="Générer aléatoirement les matchs"
+                Grid.Row="0"/>
+        <CommandBar Grid.Row="1">
+            <AppBarButton Icon="Add" Label="Ajouter" Command="{Binding CommandNavigateAddMatch}"/>
+            <AppBarButton Icon="Edit" Label="Edit" Command="{Binding CommandEditMatch}" />
+            <AppBarButton Icon="Save" Label="Save" Command="{Binding CommandEnregistrerTournament}"/>
+        </CommandBar>
+        <Pivot ItemsSource="{Binding MatchsPhases, Mode=TwoWay}"  
+               HeaderTemplate="{StaticResource HeaderTemplatePivot}" 
+               SelectedItem="{Binding SelectedPhase, Mode=TwoWay}"
+               ItemTemplate="{StaticResource PivotTemplate}"
+               Grid.Row="2"/>
+    </Grid>
+</Page>

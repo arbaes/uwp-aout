@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="FirstName" />
+    <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="Address" />
+    <RootPropertyPathName Name="Zipcode" />
+    <RootPropertyPathName Name="City" />
+    <RootPropertyPathName Name="Box" />
+    <RootPropertyPathName Name="Number" />
+    <RootPropertyPathName Name="Street" />
+    <RootPropertyPathName Name="IsErrorAdresse" />
+    <RootPropertyPathName Name="IsAddressRequiredZipCode" />
+    <RootPropertyPathName Name="IsAddressRequiredStreet" />
+    <RootPropertyPathName Name="IsAddressRequiredNumber" />
+    <RootPropertyPathName Name="IsAddressRequiredCity" />
+    <RootPropertyPathName Name="AddClub" />
+    <RootPropertyPathName Name="IsAddClubError" />
+    <RootPropertyPathName Name="Club" />
+    <RootPropertyPathName Name="Phone" />
+    <RootPropertyPathName Name="ContactMail" />
+    <RootPropertyPathName Name="IsPhoneRequired" />
+    <RootPropertyPathName Name="IsNameRequired" />
+    <RootPropertyPathName Name="IsNullMailAddress" />
+    <RootPropertyPathName Name="IsIncorrectMailAddress" />
+    <RootPropertyPathName Name="CommandAddClub" />
+    <RootPropertyPathName Name="Clubs" />
+    <RootPropertyPathName Name="IsSelectedClub" />
+    <RootPropertyPathName Name="SelectedItem" />
+    <RootPropertyPathName Name="Adresse" />
+    <RootPropertyPathName Name="SelectedClub" />
+    <RootPropertyPathName Name="CmdNavigateAddClub" />
+    <RootPropertyPathName Name="Login" />
+    <RootPropertyPathName Name="IsChargement" />
+    <RootPropertyPathName Name="IsNotChargement" />
+    <RootPropertyPathName Name="CommandNavigateRegister" />
+    <RootPropertyPathName Name="CommandLogin" />
+    <RootPropertyPathName Name="Password" />
+    <RootPropertyPathName Name="Email" />
+    <RootPropertyPathName Name="IsEmailInvalide" />
+    <RootPropertyPathName Name="IsPasswordVide" />
+    <RootPropertyPathName Name="IsEmailVide" />
+    <RootPropertyPathName Name="IsErrorConnection" />
+    <RootPropertyPathName Name="IsGeneralErrorVisible" />
+    <RootPropertyPathName Name="IsGeneralError" />
+    <RootPropertyPathName Name="ErrorDescription" />
+    <RootPropertyPathName Name="MembersEntity" />
+    <RootPropertyPathName Name="CommandDelMember" />
+    <RootPropertyPathName Name="CommandAddMember" />
+    <RootPropertyPathName Name="AllMembers" />
+    <RootPropertyPathName Name="AddMembre" />
+    <RootPropertyPathName Name="IsErrorUser" />
+    <RootPropertyPathName Name="User" />
+    <RootPropertyPathName Name="Birthday" />
+    <RootPropertyPathName Name="IsBirtdayRequired" />
+    <RootPropertyPathName Name="IsFirstNameRequired" />
+    <RootPropertyPathName Name="IsEmailRequired" />
+    <RootPropertyPathName Name="IsEmailFormatError" />
+    <RootPropertyPathName Name="Membres" />
+    <RootPropertyPathName Name="Users" />
+    <RootPropertyPathName Name="CmdNavigateAddMembre" />
+    <RootPropertyPathName Name="Register" />
+    <RootPropertyPathName Name="CommandClear" />
+    <RootPropertyPathName Name="CommandSaveNewAccount" />
+    <RootPropertyPathName Name="PasswordConfirm" />
+    <RootPropertyPathName Name="IsErrorConnexion" />
+    <RootPropertyPathName Name="IsPasswordConfirmEquals" />
+    <RootPropertyPathName Name="IsPasswordRequiresUniqueChars" />
+    <RootPropertyPathName Name="IsPasswordRequiresUpper" />
+    <RootPropertyPathName Name="IsPasswordRequiresLower" />
+    <RootPropertyPathName Name="IsPasswordRequiresDigit" />
+    <RootPropertyPathName Name="IsPasswordRequiresNonAlphanumeric" />
+    <RootPropertyPathName Name="IsPasswordTooShort" />
+    <RootPropertyPathName Name="IsDuplicateUserName" />
+    <RootPropertyPathName Name="IsEmailNotValid" />
+    <RootPropertyPathName Name="MainPage" />
+    <RootPropertyPathName Name="CommandSelectChangeMenu" />
+    <RootPropertyPathName Name="CommandInvokedMenu" />
+    <RootPropertyPathName Name="AddMatch" />
+    <RootPropertyPathName Name="AllArbitre" />
+    <RootPropertyPathName Name="SelectedArbitre" />
+    <RootPropertyPathName Name="HeurePrevue" />
+    <RootPropertyPathName Name="LieuMatch" />
+    <RootPropertyPathName Name="ListeJoueur2" />
+    <RootPropertyPathName Name="SelectedJoueur2" />
+    <RootPropertyPathName Name="ListeJoueur1" />
+    <RootPropertyPathName Name="SelectedJoueur1" />
+    <RootPropertyPathName Name="CommandAjouterMatch" />
+    <RootPropertyPathName Name="AddTournament" />
+    <RootPropertyPathName Name="CommandAddTournament" />
+    <RootPropertyPathName Name="IsTournamentError" />
+    <RootPropertyPathName Name="ClubId" />
+    <RootPropertyPathName Name="OTournament" />
+    <RootPropertyPathName Name="TournamentStates" />
+    <RootPropertyPathName Name="Etat" />
+    <RootPropertyPathName Name="EndDate" />
+    <RootPropertyPathName Name="BeginDate" />
+    <RootPropertyPathName Name="NameTournament" />
+    <RootPropertyPathName Name="IsNameTournamentRequired" />
+    <RootPropertyPathName Name="IsClubRequired" />
+    <RootPropertyPathName Name="Matchs" />
+    <RootPropertyPathName Name="Arbitre" />
+    <RootPropertyPathName Name="Time" />
+    <RootPropertyPathName Name="State" />
+    <RootPropertyPathName Name="Emplacement" />
+    <RootPropertyPathName Name="Player2" />
+    <RootPropertyPathName Name="Score" />
+    <RootPropertyPathName Name="Key" />
+    <RootPropertyPathName Name="Player1" />
+    <RootPropertyPathName Name="NumPhase" />
+    <RootPropertyPathName Name="MatchsPhases" />
+    <RootPropertyPathName Name="SelectedPhase" />
+    <RootPropertyPathName Name="CommandEnregistrerTournament" />
+    <RootPropertyPathName Name="CommandEditMatch" />
+    <RootPropertyPathName Name="CommandNavigateAddMatch" />
+    <RootPropertyPathName Name="CommandGenereMatch" />
+    <RootPropertyPathName Name="Tournaments" />
+    <RootPropertyPathName Name="SelectedTournament" />
+    <RootPropertyPathName Name="Participants" />
+    <RootPropertyPathName Name="Count" />
+    <RootPropertyPathName Name="CommandNavigateSelect" />
+    <RootPropertyPathName Name="NavigateCommand" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
+    <RootType FullName="smartchUWP.Converters.DateTimeConverter" />
+    <RootType FullName="smartchUWP.Converters.DateTimeToAgeConverter" />
+    <RootType FullName="smartchUWP.Converters.DateTimeToDateTimeOffsetConverter" />
+    <RootType FullName="smartchUWP.Converters.BooleanToVisibilityConverter" />
+    <RootType FullName="smartchUWP.Converters.BooleanToIsVisibleBorderThikness" />
+    <RootType FullName="smartchUWP.Converters.StateToStringConverter" />
+    <RootType FullName="smartchUWP.ViewModel.ViewModelLocator" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="BorderBrush" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="TargetNullValue" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Visibility" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxLength" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="InputScope" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="smartchUWP.View.AdresseForm" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
+      <RootProperty Name="Items" />
+      <RootProperty Name="RightHeader" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="SourcePageType" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Child" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Background" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Clubs.AddClub" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="IsMultiSelectCheckBoxEnabled" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextDecorations" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Clubs.Clubs" />
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="XamlAnimatedGif.AnimationBehavior">
+      <RootMethod Name="GetSourceUri" />
+      <RootMethod Name="SetSourceUri" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxLength" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="InputScope" />
+      <RootProperty Name="Password" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Animations.Behaviors.Fade">
+      <RootProperty Name="Value" />
+      <RootProperty Name="Duration" />
+      <RootProperty Name="AutomaticallyStart" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.DataTriggerBehavior">
+      <RootProperty Name="Binding" />
+      <RootProperty Name="ComparisonCondition" />
+      <RootProperty Name="Value" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.CallMethodAction">
+      <RootProperty Name="MethodName" />
+      <RootProperty Name="TargetObject" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Login" />
+    <RootType FullName="smartchUWP.View.MemberSelection" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Date" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Membres.AddMembre" />
+    <RootType FullName="smartchUWP.View.Membres.Membres" />
+    <RootType FullName="smartchUWP.View.Register" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="IsSettingsVisible" />
+      <RootProperty Name="MenuItems" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
+      <RootProperty Name="EventName" />
+      <RootProperty Name="Actions" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Interactions.Core.InvokeCommandAction">
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemSeparator" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Tag" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.NavigationThemeTransition" />
+    <RootType FullName="smartchUWP.View.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="SelectedValuePath" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
+      <RootProperty Name="Header" />
+      <RootProperty Name="Time" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Tournaments.AddMatch" />
+    <RootType FullName="smartchUWP.View.Tournaments.AddTournament" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootMethod Name="GetIsVerticalRailEnabled" />
+      <RootMethod Name="SetIsVerticalRailEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Padding" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Tournaments.Matchs" />
+    <RootType FullName="Windows.UI.Xaml.Thickness" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="smartchUWP.View.Tournaments.Tournaments" />
+  </Roots.RootTypes>
+</Roots>

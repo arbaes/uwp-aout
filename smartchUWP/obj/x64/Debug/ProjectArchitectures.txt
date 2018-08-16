@@ -1,0 +1,4 @@
+C:\Users\arnau\Source\Repos\smartchuwp-aout2\DataAccess\DataAccess.csproj;neutral
+C:\Users\arnau\Source\Repos\smartchuwp-aout2\Model\Model.csproj;neutral
+C:\Users\arnau\Source\Repos\smartchuwp-aout2\Model\Model.csproj;neutral
+C:\Users\arnau\Source\Repos\smartchuwp-aout2\smartchUWP\smartchUWP.csproj;x64
